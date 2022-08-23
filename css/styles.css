@@ -1,0 +1,83 @@
+body {
+    background-color: #FFD200; 
+    overflow-x:hidden;
+}
+
+.contenedor{
+    margin-top:15px;
+    margin-left:35px;
+    margin-right:35px;
+    padding-right: 15px;
+}
+
+span{
+    color:#000;
+}
+
+.labelMensaje{
+    font-size: 16px;
+}
+
+.labelTemp {
+    font-size: 18px
+}
+
+.labelTit {
+    font-size: 20px
+}
+
+.labelLink{
+    font-size: 16px
+}
+
+.btnCap{
+    width:150px;
+    background:#cb3234;
+    border-color:#cb3234;
+    color: #fff;
+}
+
+.imgTop {
+    width:255px; 
+    margin-bottom:15px;
+}
+
+.imgBottom{
+    width:255px;
+    margin-top:55px;
+}
+
+@media (max-width: 768px) {
+
+    .imgTop{
+        width:200px; 
+        margin-bottom:35px;
+    }
+
+    .imgBottom{
+        width:200px;
+        margin-top:55px;
+    }
+
+    .labelTemp{
+        font-size: 14px;
+    }
+
+     .labelTit{
+        font-size: 16px;
+     }
+     
+     .labelLink{
+        font-size: 14px;
+    }
+
+    .labelMensaje{
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .justify-content-md-center{
+        justify-content: center!important;
+    }
+    
+  }
